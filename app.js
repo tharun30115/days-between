@@ -1,6 +1,5 @@
 let submit = document.getElementById("submit");
 let output = document.getElementById("output");
-
 submit.addEventListener("click", () => {
     let date1 = new Date(document.getElementById("date-1").value);
     let date2 = new Date(document.getElementById("date-2").value);
@@ -16,4 +15,3 @@ submit.addEventListener("click", () => {
       output.innerHTML = "Please select a valid date";
     }
   });
-  
